@@ -104,8 +104,8 @@ const programData = {
     },
     {
       name: "StinkySocks Women's Lower Level Draft League",
-      details: "Levels 2-4: skaters who have advanced beyond the learn-to-play level. Typically excludes players with previous high school or higher experience.",
-      schedule: "Sundays, 7:30 – 9:30 (season-dependent); next season begins June 14, 2026.",
+      details: "Levels 2-4: skaters who have advanced beyond the learn-to-play level. Typically excludes players with previous high school or higher experience. NOTE: Registration is currently full but you can still join the waitlist!",
+      schedule: "Sundays, 7:30 – 9:30 (season-dependent); next season begins June 21, 2026.",
       location: "Veteran's Memorial Rink, Somerville",
       link: "https://www.stinkysocks.net/draft-league/somerville-womens-lower-level-draft-league/",
     },
