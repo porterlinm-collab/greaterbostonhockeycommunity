@@ -162,6 +162,20 @@ const programData = {
       schedule: "July each year; next dates: July 10 – 12, 2026.",
       location: "Amelia Park Ice Arena, Westfield",
       link: "https://www.dynamicwomenshockey.com/camps",
+     },
+      {
+      name: "Belmont Women's Hockey Camp",
+      details: "Level: D All-female coaching.",
+      schedule: "August 28 – 30, 2026.",
+      location: "Viglirolo Skating Rink, Belmont",
+      link: "https://www.belmontwomenshockey.org/programs",
+    },
+    {
+      name: "1% Hockey Club, Adult Women's Hockey Camp",
+      details: "Level: All skills. 6 hours of on-ice instruction, 2 off-ice sessions, 2 workouts, 3 development sessions + tour of BU. Led by NCAA coaches, players, and trainers.",
+      schedule: "August 14 – 16, 2026.",
+      location: "Boston University, Boston",
+      link: "https://onepercenthockeyclub.com/",
     },
   ],
 };
