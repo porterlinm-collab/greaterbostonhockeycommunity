@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>FAQs | Greater Boston Hockey Community</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <div class="page-header">
+    <h1>Frequently Asked Questions</h1>
+    <p>Answers to common questions about getting started and finding the right program.</p>
+  </div>
+
+  <main>
+    <div class="section" id="faqContainer">
+
+      <div class="faq-item open">
+        <button class="faq-question">How do I know what level I am?</button>
+        <div class="faq-answer">
+          <p>The answer to this is nuanced — it depends on the program/organization. Standard leveling is Novice/Rec, D, C, B, and A. StinkySocks leveling runs 1–9 (9 being the highest). The Belmont Women's Hockey League has its own leveling system that provides more granularity for lower-level skaters, ranking skaters 1–9, but this is distinct from the StinkySocks leveling system.</p>
+        </div>
+      </div>
+
+      <div class="faq-item">
+        <button class="faq-question">I played hockey when I was younger, but it's been a while. Where should I start?</button>
+        <div class="faq-answer">
+          <p><em>Answer coming soon!</em> In the meantime, check out our <a href="programs.html">Programs &amp; Calendar</a> page, or reach out via <a href="community.html">Our Community</a> and we can help point you in the right direction.</p>
+        </div>
+      </div>
+
+      <div class="faq-item">
+        <button class="faq-question">I don't know how to skate / I'm still learning to skate. Is there a program for me?</button>
+        <div class="faq-answer">
+          <p><em>Answer coming soon!</em> In the meantime, check out our <a href="programs.html">Programs &amp; Calendar</a> page — several beginner/learn-to-play programs welcome skaters at all levels.</p>
+        </div>
+      </div>
+
+    </div>
+  </main>
+
+  <script>
+    document.querySelectorAll(".faq-question").forEach((btn) => {
+      btn.addEventListener("click", () => {
+        btn.parentElement.classList.toggle("open");
+      });
+    });
+  </script>
+
+  <script src="js/layout.js"></script>
+</body>
+</html>

@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Programs &amp; Calendar | Greater Boston Hockey Community</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <div class="page-header">
+    <h1>Programs &amp; Calendar</h1>
+    <p>Find learn-to-play programs, clinics, scrimmages, leagues, tournaments, and camps across the Greater Boston area.</p>
+  </div>
+
+  <main>
+    <div class="section text-center" style="background:#fff; border-radius:10px; box-shadow:0 2px 12px rgba(27,42,74,0.08); padding:24px;">
+      <p style="margin:0; color:#6b7785;">📅 A community calendar is coming soon! In the meantime, browse all current programs below.</p>
+    </div>
+
+    <div class="section">
+      <div class="filter-bar" id="filterBar">
+        <button class="active" data-filter="all">All</button>
+      </div>
+      <div id="programContainer"></div>
+    </div>
+
+    <div class="section coming-soon">
+      <h2>Don't see what you're looking for?</h2>
+      <p>One of our missions is to grow women's hockey in the Greater Boston area! Let us know what programming you'd like to see added to our community's offerings.</p>
+      <div class="cta-row">
+        <a class="btn btn-accent" href="https://forms.gle/TvKXgBeiuTJtnwtv7" target="_blank" rel="noopener">Request Programming</a>
+      </div>
+    </div>
+  </main>
+
+  <script src="data/programs.js"></script>
+  <script>
+    const container = document.getElementById("programContainer");
+    const filterBar = document.getElementById("filterBar");
+    const categories = Object.keys(programData);
+
+    // Build filter buttons
+    categories.forEach((cat) => {
+      const btn = document.createElement("button");
+      btn.textContent = cat;
+      btn.dataset.filter = cat;
+      filterBar.appendChild(btn);
+    });
+
+    function renderPrograms(filter) {
+      container.innerHTML = "";
+      const cats = filter === "all" ? categories : [filter];
+
+      cats.forEach((cat) => {
+        const block = document.createElement("div");
+        block.className = "category-block";
+
+        const heading = document.createElement("h2");
+        heading.textContent = cat;
+        block.appendChild(heading);
+
+        programData[cat].forEach((p) => {
+          const div = document.createElement("div");
+          div.className = "program";
+
+          let html = `<h3>${p.name}</h3>`;
+          if (p.details) html += `<div class="meta">${p.details}</div>`;
+          if (p.schedule) html += `<div class="meta">🕒 ${p.schedule}</div>`;
+          if (p.location) html += `<div class="meta">📍 ${p.location}</div>`;
+          if (p.contact) html += `<div class="meta">${p.contact}</div>`;
+          if (p.link || p.link2) {
+            html += `<div class="links">`;
+            if (p.link) html += `<a href="${p.link}" target="_blank" rel="noopener">More info / Register</a>`;
+            if (p.link2) html += `<a href="${p.link2}" target="_blank" rel="noopener">Additional link</a>`;
+            html += `</div>`;
+          }
+
+          div.innerHTML = html;
+          block.appendChild(div);
+        });
+
+        container.appendChild(block);
+      });
+    }
+
+    filterBar.addEventListener("click", (e) => {
+      if (e.target.tagName !== "BUTTON") return;
+      filterBar.querySelectorAll("button").forEach((b) => b.classList.remove("active"));
+      e.target.classList.add("active");
+      renderPrograms(e.target.dataset.filter);
+    });
+
+    renderPrograms("all");
+  </script>
+
+  <script src="js/layout.js"></script>
+</body>
+</html>
