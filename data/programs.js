@@ -164,7 +164,7 @@ const programData = {
       link: "https://www.dynamicwomenshockey.com/camps",
      },
       {
-      name: "Belmont Women's Hockey Camp",
+      name: "Belmont Women's Hockey - Women's Hockey Camp",
       details: "Level: D All-female coaching.",
       schedule: "August 28 – 30, 2026.",
       location: "Viglirolo Skating Rink, Belmont",
@@ -172,7 +172,7 @@ const programData = {
     },
     {
       name: "1% Hockey Club, Adult Women's Hockey Camp",
-      details: "Level: All skills. 6 hours of on-ice instruction, 2 off-ice sessions, 2 workouts, 3 development sessions + tour of BU. Led by NCAA coaches, players, and trainers.",
+      details: "Level: All levels welcome. 6 hours of on-ice instruction, 2 off-ice sessions, 2 workouts, 3 development sessions + tour of BU. Led by NCAA coaches, players, and trainers.",
       schedule: "August 14 – 16, 2026.",
       location: "Boston University, Boston",
       link: "https://onepercenthockeyclub.com/",
