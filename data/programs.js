@@ -13,7 +13,7 @@ const programData = {
     {
       name: "Belmont Women's Hockey – Various Programs",
       details: "Check website for current offerings.",
-      location: "Vigliroloi Rink, Belmont",
+      location: "Viglirolo Rink, Belmont",
       link: "https://www.belmontwomenshockey.com/programs",
     },
     {
@@ -41,7 +41,7 @@ const programData = {
     {
       name: "Belmont Women's Hockey – Various Programs",
       details: "Check website for current offerings.",
-      location: "Vigliroloi Rink, Belmont",
+      location: "Viglirolo Rink, Belmont",
       link: "https://www.belmontwomenshockey.com/programs",
     },
     {
@@ -52,8 +52,8 @@ const programData = {
     },
     {
       name: "Women's Stick & Puck",
-      schedule: "Wednesdays, 9:00 – 11:00 AM.",
-      location: "Vigliroloi Rink, Belmont",
+      schedule: "Wednesdays and Fridays, 9:00 – 11:00 AM.",
+      location: "Viglirolo Rink, Belmont",
       link: "https://belmontma.myrec.com/info/activities/program_details.aspx?ProgramID=30253",
     },
     {
@@ -77,14 +77,15 @@ const programData = {
       name: "Women's Hockey Sunday Night Scrimmage",
       details: "For skaters who have advanced beyond the learn-to-play level.",
       schedule: "Sundays, 6:50 – 7:50 PM.",
-      location: "Vigliroloi Rink, Belmont",
+      location: "Viglirolo Rink, Belmont",
+      link: "https://belmontma.myrec.com/info/activities/program_details.aspx?ProgramID=30253",
     },
     {
       name: "StinkySocks Women's No-Commitment Hockey (NCH) Games",
       details: "For skaters who have advanced beyond the learn-to-play level.",
-      schedule: "Times/Dates TBD.",
-      location: "TBD",
-      link: "https://belmontma.myrec.com/info/activities/program_details.aspx?ProgramID=29872",
+      schedule: "Mondays at 8 PM",
+      location: "Viglirolo Rink, Belmont",
+      link: "https://www.stinkysocks.net/",
     },
     {
       name: "Medford Women's Scrimmage",
@@ -99,7 +100,7 @@ const programData = {
     {
       name: "Belmont Women's Hockey – Beginner League & D League",
       details: "Check website for current offerings.",
-      location: "Vigliroloi Rink, Belmont",
+      location: "Viglirolo Rink, Belmont",
       link: "https://www.belmontwomenshockey.com/programs",
     },
     {
@@ -137,6 +138,7 @@ const programData = {
       details: "Levels: Rec-C (30+), 55+ division.",
       schedule: "Next date: April 2 – 4, 2027.",
       location: "Nashoba Valley Olympia, Boxborough",
+      link: "https://www.thehockeyacademy.com/april-showers-tournament/",
     },
     {
       name: "Cross Check Cancer",
