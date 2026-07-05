@@ -31,13 +31,32 @@ const programData = {
     },
     {
       name: "New England Women's Hockey League (NEWHL) Learn to Play",
-      schedule: "Currently running Tuesdays, 10:00 – 11:00 AM through June 16, 2026.",
+      schedule: "Check with NEWHL for upcoming programs",
       location: "Nashoba Valley Olympia, Boxborough",
       link: "https://thehockeyacademy.sportngin.com/register/form/113894738",
     },
   ],
 
   "Women's Clinics & Stick and Pucks": [
+    {
+      name: "Lindsay Berman 2026 Summer Women's Clinic",
+      schedule: "7 Wednesday sessions (July 1, 8, 15, 22, 29, August 5, August 12), 8:00-8:50PM",
+      location: "Stoneham Arena, 101 Montvale Ave. Stoneham, MA 02180",
+      link: "https://lindsaybermanhockey.totalcamps.com/shop/EVENT",
+    },
+    {
+      name: "Women's Stick & Puck",
+      schedule: "Wednesdays and Fridays, 9:00 – 11:00 AM.",
+      location: "Viglirolo Rink, Belmont",
+      link: "https://belmontma.myrec.com/info/activities/program_details.aspx?ProgramID=30253",
+    },
+    {
+      name: "New England Women's Hockey League (NEWHL) Skills",
+      details: "Levels: Rec – C.",
+      schedule: "Currently running Thursdays, July 9, 2026 - August 27, 2026 (8 Weeks), 7:05 PM - 8:05 PM; COST - $240",
+      location: "Nashoba Valley Olympia, Boxborough",
+      link: "https://thehockeyacademy.sportngin.com/register/form/526082731?_gl=1*1giic3p*_ga*MzkyOTE5Mjc5LjE3ODMyNjA3Mjc.#_ga=2.182913894.1384163250.1783260727-392919279.1783260727",
+    },
     {
       name: "Belmont Women's Hockey – Various Programs",
       details: "Check website for current offerings.",
@@ -51,30 +70,17 @@ const programData = {
       link: "https://www.warrioricearena.com/skating-hockey-programs/adult-womens-skills/",
     },
     {
-      name: "Women's Stick & Puck",
-      schedule: "Wednesdays and Fridays, 9:00 – 11:00 AM.",
-      location: "Viglirolo Rink, Belmont",
-      link: "https://belmontma.myrec.com/info/activities/program_details.aspx?ProgramID=30253",
-    },
-    {
       name: "Medford Women's Skills",
       details: "Open to all levels.",
       schedule: "Saturdays, October – March, 8:00 – 8:50 AM.",
       location: "LoConte Rink, Medford",
       contact: "Contact info: TBD",
     },
-    {
-      name: "New England Women's Hockey League (NEWHL) Skills",
-      details: "Levels: Rec – C.",
-      schedule: "Currently running Wednesdays & Thursdays, 9:45 – 11:00 AM through June 19, 2026.",
-      location: "Nashoba Valley Olympia, Boxborough",
-      link: "https://www.thehockeyacademy.com/newhl",
-    },
   ],
 
   "Women's Scrimmages / Pickup Games": [
     {
-      name: "Women's Hockey Sunday Night Scrimmage",
+      name: "Women's Hockey Sunday Night Scrimmage - ENDED",
       details: "For skaters who have advanced beyond the learn-to-play level.",
       schedule: "Sundays, 6:50 – 7:50 PM.",
       location: "Viglirolo Rink, Belmont",
@@ -106,14 +112,14 @@ const programData = {
     {
       name: "StinkySocks Women's Lower Level Draft League",
       details: "Levels 2-4: skaters who have advanced beyond the learn-to-play level. Typically excludes players with previous high school or higher experience. NOTE: Registration is currently full but you can still join the waitlist!",
-      schedule: "Sundays, 7:30 – 9:30 (season-dependent); next season begins June 21, 2026.",
+      schedule: "Sundays, 7:30 – 9:30 (season-dependent); current season runs June 21st - October 4th, 2026.",
       location: "Veteran's Memorial Rink, Somerville",
       link: "https://www.stinkysocks.net/draft-league/somerville-womens-lower-level-draft-league/",
     },
     {
       name: "Warrior – Women's League",
       details: "Levels: C/D. Free agents welcome to sign up.",
-      schedule: "Runs Sundays, 6:30 – 8:20 PM.",
+      schedule: "Runs Sundays, 6:30 – 8:20 PM; next season starts July 21, 2026",
       location: "Warrior Arena, Brighton",
       link: "https://www.warrioricearena.com/skating-hockey-programs/adult-womens-hockey-league/",
     },
@@ -129,6 +135,12 @@ const programData = {
       schedule: "Currently running Fridays, 10:00 – 11:00 AM, April 10 – June 19, 2026 (11 weeks).",
       location: "Nashoba Valley Olympia, Boxborough",
       link: "https://thehockeyacademy.sportngin.com/register/form/277333995",
+    },
+    {
+      name: "Power Play Hockey League (PPHL), Women's League",
+      schedule: "Contact PPHL for more information; the league is currently soliciting interest for a Women's Weekend Hockey League, Sunday mornings, all levels welcome. Interested? Email info@powerplayhockey.com or Rebecca Crimmins at rebeccacrimmins01@yahoo.com by August 10th, 2026.",
+      location: "Canton Ice House, Canton",
+      link: "https://www.powerphockey.com/page/show/9434940?subseason=960662&tab=content",
     },
   ],
 
@@ -164,8 +176,8 @@ const programData = {
       schedule: "July each year; next dates: July 10 – 12, 2026.",
       location: "Amelia Park Ice Arena, Westfield",
       link: "https://www.dynamicwomenshockey.com/camps",
-     },
-      {
+    },
+    {
       name: "Belmont Women's Hockey - Women's Hockey Camp",
       details: "Level: D All-female coaching.",
       schedule: "August 28 – 30, 2026.",
