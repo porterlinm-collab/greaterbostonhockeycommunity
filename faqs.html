@@ -23,4 +23,24 @@
       <div class="faq-item">
         <button class="faq-question">I played hockey when I was younger, but it's been a while. Where should I start?</button>
         <div class="faq-answer">
-          <p>Right now, with more limited summer programming, a great place to start is the StinkySocks Skills Clinics (Mondays &amp; Fridays, Somerville) &mdash; co-ed, no multi-week commitment, and no jersey required. Or come to the Women's No-Commitment Game in Belmont, also commitment-free and welcoming to a range of skill levels (jersey purchase required in advance &mdash; visit <a
+          <p>Right now, with more limited summer programming, a great place to start is the StinkySocks Skills Clinics (Mondays &amp; Fridays, Somerville) &mdash; co-ed, no multi-week commitment, and no jersey required. Or come to the Women's No-Commitment Game in Belmont, also commitment-free and welcoming to a range of skill levels (jersey purchase required in advance &mdash; visit <a href="https://www.stinkysocks.net/" target="_blank" rel="noopener">StinkySocks.net</a>). Warrior Arena also runs <a href="https://www.warrioricearena.com/skating-hockey-programs/?program=adult-hockey" target="_blank" rel="noopener">Women's Skills</a> year-round for a range of skill levels.</p>
+        </div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-question">I don't know how to skate / I'm still learning to skate. Is there a program for me?</button>
+        <div class="faq-answer">
+          <p>Most of the beginner/learn-to-play programs are open to those still learning basic skating skills, especially the Somerville and Cambridge LTP programs. Check out our <a href="programs.html">Programs &amp; Calendar</a> page for the full list.</p>
+        </div>
+      </div>
+    </div>
+  </main>
+  <script>
+    document.querySelectorAll(".faq-question").forEach((btn) => {
+      btn.addEventListener("click", () => {
+        btn.parentElement.classList.toggle("open");
+      });
+    });
+  </script>
+  <script src="js/layout.js"></script>
+</body>
+</html>
