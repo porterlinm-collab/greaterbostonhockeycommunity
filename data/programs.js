@@ -37,7 +37,7 @@ const programData = {
     },
   ],
 
-  "Women's Clinics & Stick and Pucks": [
+  "Women's Clinics and Stick & Pucks": [
     {
       name: "Lindsay Berman 2026 Summer Women's Clinic",
       schedule: "7 Wednesday sessions (July 1, 8, 15, 22, 29, August 5, August 12), 8:00-8:50 PM",
