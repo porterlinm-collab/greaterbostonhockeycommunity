@@ -40,12 +40,12 @@ const programData = {
   "Women's Clinics & Stick and Pucks": [
     {
       name: "Lindsay Berman 2026 Summer Women's Clinic",
-      schedule: "7 Wednesday sessions (July 1, 8, 15, 22, 29, August 5, August 12), 8:00-8:50PM",
+      schedule: "7 Wednesday sessions (July 1, 8, 15, 22, 29, August 5, August 12), 8:00-8:50 PM",
       location: "Stoneham Arena, 101 Montvale Ave. Stoneham, MA 02180",
       link: "https://lindsaybermanhockey.totalcamps.com/shop/EVENT",
     },
     {
-      name: "Women's Stick & Puck",
+      name: "Summer Women's Stick & Puck",
       schedule: "Wednesdays and Fridays, 9:00 – 11:00 AM.",
       location: "Viglirolo Rink, Belmont",
       link: "https://belmontma.myrec.com/info/activities/program_details.aspx?ProgramID=30253",
@@ -80,13 +80,6 @@ const programData = {
 
   "Women's Scrimmages / Pickup Games": [
     {
-      name: "Women's Hockey Sunday Night Scrimmage - ENDED",
-      details: "For skaters who have advanced beyond the learn-to-play level.",
-      schedule: "Sundays, 6:50 – 7:50 PM.",
-      location: "Viglirolo Rink, Belmont",
-      link: "https://belmontma.myrec.com/info/activities/program_details.aspx?ProgramID=30253",
-    },
-    {
       name: "StinkySocks Women's No-Commitment Hockey (NCH) Games",
       details: "For skaters who have advanced beyond the learn-to-play level.",
       schedule: "Mondays at 8 PM",
@@ -99,6 +92,13 @@ const programData = {
       schedule: "Saturdays, October – March, 9:00 – 9:50 AM.",
       location: "LoConte Rink, Medford",
       contact: "Contact info: TBD",
+    },
+    {
+      name: "Women's Hockey Sunday Night Scrimmage - ENDED",
+      details: "For skaters who have advanced beyond the learn-to-play level.",
+      schedule: "Sundays, 6:50 – 7:50 PM.",
+      location: "Viglirolo Rink, Belmont",
+      link: "https://belmontma.myrec.com/info/activities/program_details.aspx?ProgramID=30253",
     },
   ],
 
