@@ -5,21 +5,23 @@ const programData = {
   "Beginner / Learn-to-Play Programs": [
     {
       name: "Belmont Women's Hockey – Women's Hockey Learn to Play",
-      details: "Sunday nights from 5:10 pm - 6:40 pm; Session 1: September 20 - November 8 (8 weeks); Session 2: November 15 - February 7 (10 weeks)",
+      schedule: "Sunday nights from 5:10 pm - 6:40 pm; Session 1: September 20 - November 8 (8 weeks); Session 2: November 15 - February 7 (10 weeks)",
       location: "Viglirolo Rink, Belmont",
       link: "https://www.belmontwomenshockey.com/programs",
     },
     {
       name: "Somerville Youth Hockey – Women's Learn to Play",
-      details: "Open to women players of all abilities. Cost: $675 for the full season (fall + winter) | $375 for half season (fall only or winter only)",
+      details: "Open to women players of all abilities.",
       schedule: "Wednesdays, 8:30–9:20 PM, starting September 2",
       location: "Veteran's Memorial Rink, Somerville",
+      cost: "$675 for the full season (fall + winter) | $375 for half season (fall only or winter only)",
       link: "https://www.somervilleyouthhockey.org/page/show/8678272-women-s-learn-to-play",
     },
     {
       name: "New England Women's Hockey League (NEWHL) Tuesday Skills - Learn to Play",
-      schedule: "Tuesdays 10:00 AM - 11:00 AM (1 Hr Sessions) - September 8, 2026 - November 10, 2026 (10 Weeks) - COST - $310",
+      schedule: "Tuesdays 10:00 AM - 11:00 AM (1 Hr Sessions) - September 8, 2026 - November 10, 2026 (10 Weeks)",
       location: "Nashoba Valley Olympia, Boxborough",
+      cost: "$310",
       link: "https://www.thehockeyacademy.com/newhl",
     },
     {
@@ -31,8 +33,9 @@ const programData = {
     },
     {
       name: "Warrior – Adult Learn to Play (Co-ed, but many women participate)",
-      details: "Dates: Fall session : Fri 9/4/2026-10/23/2026 - Cost: $329.00 - Time: 8:00 PM-8:50 PM; Winter session: Fri 12/4/2026-2/19/2027 - Cost: $376.00 - Time: 8:00 PM-8:50 PM",
+      schedule: "Fall session: Fridays 9/4/2026-10/23/2026- Time: 8:00 PM-8:50 PM; Winter session: Fridays 12/4/2026-2/19/2027 - Time: 8:00 PM-8:50 PM",
       location: "Warrior Arena, Brighton",
+      cost: "Fall - $329.00; Winter - $376.00",
       link: "https://warrior.finnlyconnect.com/registration/activityitemv2/35635",
     },
   ],
@@ -41,6 +44,7 @@ const programData = {
     {
       name: "Summer Women's Stick & Puck",
       schedule: "Wednesdays and Fridays, 9:00 – 11:00 AM through August 26, 2026",
+      cost: "$10.00",
       location: "Viglirolo Rink, Belmont",
       link: "https://belmontma.myrec.com/info/activities/program_details.aspx?ProgramID=30253",
     },
@@ -53,13 +57,13 @@ const programData = {
     },
     {
       name: "Belmont Women's Hockey – Team Skills",
-      details: "Thursdays, 8 pm - 9:20 pm; Session I: September 3 - October 8 (6 weeks, Rec/D level); Session II: October 15 - November 19 (6 weeks, Beginner level) - (4 teams per session)",
+      schedule: "Thursdays, 8 pm - 9:20 pm; Session I: September 3 - October 8 (6 weeks, Rec/D level); Session II: October 15 - November 19 (6 weeks, Beginner level) - (4 teams per session)",
       location: "Viglirolo Rink, Belmont",
       link: "https://www.belmontwomenshockey.com/programs",
       },
     {
       name: "Belmont Women's Hockey – Women's Intermediate/Advanced Skills & Scrimmage",
-      details: "Sunday nights from 6:50 pm - 8:20 pm; September 20 - November 8 (8 weeks); For experienced players; this will be a mixed-level game; Half packs available!",
+      schedule: "Sunday nights from 6:50 pm - 8:20 pm; September 20 - November 8 (8 weeks); For experienced players; this will be a mixed-level game; Half packs available!",
       location: "Viglirolo Rink, Belmont",
       link: "https://www.belmontwomenshockey.com/programs",
     },
@@ -79,8 +83,9 @@ const programData = {
     {
       name: "Quincy Clams - Skills & Scrimmage  - all levels",
       details: "Open to all levels.",
-      schedule: "Every other Thursday through August at 6:40 PM , then every Thursday starting in September at 9:00 PM - $20 drop-in fee.",
-      location: "LoConte Rink, Medford",
+      schedule: "Every other Thursday through August at 6:40 PM , then every Thursday starting in September at 9:00 PM",
+      cost: "$20 drop-in fee",
+      location: "Quincy Youth Arena",
       contact: "Contact info: Organized through WhatsApp - contact us (submit a contact request form found on 'Our Community' page) to be added to the group",
     },
   ],
@@ -90,6 +95,7 @@ const programData = {
       name: "StinkySocks Women's No-Commitment Hockey (NCH) Games - Novice",
       details: "For skaters who have advanced beyond the learn-to-play level.",
       schedule: "Mondays at 8 PM through August 31, 2026",
+      cost: "$24",
       location: "Viglirolo Rink, Belmont",
       link: "https://www.stinkysocks.net/",
     },
@@ -128,7 +134,7 @@ const programData = {
   "Women's Tournaments": [
      {
       name: "Belmont Women's Hockey – 3v3 Tournament",
-      details: "Saturday, December 5, 2026",
+      schedule: "Saturday, December 5, 2026",
       location: "Viglirolo Rink, Belmont",
       link: "https://www.belmontwomenshockey.com/programs",
     },
