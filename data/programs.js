@@ -51,8 +51,9 @@ const programData = {
     {
       name: "New England Women's Hockey League (NEWHL) Skills",
       details: "Levels: C/D/REC Players",
-      schedule: "Wednesday -  10:00 AM - 11:00 AM (1 Hr Session) - September 9, 2026 - November 11, 2026 (10 Weeks) and Thursday - 10:00 AM - 11:00 AM (1 Hr Session) - September 10, 2026 - November 12, 2026 (10 Weeks) - COST - $310",
+      schedule: "Wednesday -  10:00 AM - 11:00 AM (1 Hr Session) - September 9, 2026 - November 11, 2026 (10 Weeks) and Thursday - 10:00 AM - 11:00 AM (1 Hr Session) - September 10, 2026 - November 12, 2026 (10 Weeks)",
       location: "Nashoba Valley Olympia, Boxborough",
+      cost: "$310",
       link: "https://www.thehockeyacademy.com/newhl",
     },
     {
