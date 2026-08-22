@@ -4,6 +4,25 @@
 const programData = {
   "Beginner / Learn-to-Play Programs": [
     {
+      name: "Belmont Women's Hockey – Women's Hockey Learn to Play",
+      details: "Sunday nights from 5:10 pm - 6:40 pm; Session 1: September 20 - November 8 (8 weeks); Session 2: November 15 - February 7 (10 weeks)",
+      location: "Viglirolo Rink, Belmont",
+      link: "https://www.belmontwomenshockey.com/programs",
+    },
+    {
+      name: "Somerville Youth Hockey – Women's Learn to Play",
+      details: "Open to women players of all abilities. Cost: $675 for the full season (fall + winter) | $375 for half season (fall only or winter only)",
+      schedule: "Wednesdays, 8:30–9:20 PM, starting September 2",
+      location: "Veteran's Memorial Rink, Somerville",
+      link: "https://www.somervilleyouthhockey.org/page/show/8678272-women-s-learn-to-play",
+    },
+    {
+      name: "New England Women's Hockey League (NEWHL) Tuesday Skills - Learn to Play",
+      schedule: "Tuesdays 10:00 AM - 11:00 AM (1 Hr Sessions) - September 8, 2026 - November 10, 2026 (10 Weeks) - COST - $310",
+      location: "Nashoba Valley Olympia, Boxborough",
+      link: "https://www.thehockeyacademy.com/newhl",
+    },
+    {
       name: "Cambridge Youth Hockey – Hockey for Hockey 'Moms'",
       details: "Open to women of any level, but geared toward those in their first to second year of playing.",
       schedule: "Typically runs late Feb – late March each year.",
@@ -11,55 +30,36 @@ const programData = {
       link: "https://www.cambridgeyouthhockey.org/page/show/7990712-hockey-for-hockey-moms-",
     },
     {
-      name: "Belmont Women's Hockey – Various Programs",
-      details: "Check website for current offerings.",
-      location: "Viglirolo Rink, Belmont",
-      link: "https://www.belmontwomenshockey.com/programs",
-    },
-    {
-      name: "Somerville Youth Hockey – Women's Learn to Play",
-      details: "Open to women players of all abilities.",
-      schedule: "Typically runs Sep/Oct – June.",
-      location: "Veteran's Memorial Rink, Somerville",
-      link: "https://www.somervilleyouthhockey.org/page/show/8678272-women-s-learn-to-play",
-    },
-    {
-      name: "Warrior – Learn to Play (Co-ed)",
-      details: "Offered throughout the year. Check website for current offerings.",
+      name: "Warrior – Adult Learn to Play (Co-ed, but many women participate)",
+      details: "Dates: Fall session : Fri 9/4/2026-10/23/2026 - Cost: $329.00 - Time: 8:00 PM-8:50 PM; Winter session: Fri 12/4/2026-2/19/2027 - Cost: $376.00 - Time: 8:00 PM-8:50 PM",
       location: "Warrior Arena, Brighton",
-      link: "https://www.warrioricearena.com/skating-hockey-programs/adult-learn-to-skate-play-hockey/",
-    },
-    {
-      name: "New England Women's Hockey League (NEWHL) Learn to Play",
-      schedule: "Check with NEWHL for upcoming programs",
-      location: "Nashoba Valley Olympia, Boxborough",
-      link: "https://thehockeyacademy.sportngin.com/register/form/113894738",
+      link: "https://warrior.finnlyconnect.com/registration/activityitemv2/35635",
     },
   ],
 
   "Women's Clinics and Stick & Pucks": [
     {
-      name: "Lindsay Berman 2026 Summer Women's Clinic",
-      schedule: "7 Wednesday sessions (July 1, 8, 15, 22, 29, August 5, August 12), 8:00-8:50 PM",
-      location: "Stoneham Arena, 101 Montvale Ave. Stoneham, MA 02180",
-      link: "https://lindsaybermanhockey.totalcamps.com/shop/EVENT",
-    },
-    {
       name: "Summer Women's Stick & Puck",
-      schedule: "Wednesdays and Fridays, 9:00 – 11:00 AM.",
+      schedule: "Wednesdays and Fridays, 9:00 – 11:00 AM through August 26, 2026",
       location: "Viglirolo Rink, Belmont",
       link: "https://belmontma.myrec.com/info/activities/program_details.aspx?ProgramID=30253",
     },
     {
       name: "New England Women's Hockey League (NEWHL) Skills",
-      details: "Levels: Rec – C.",
-      schedule: "Currently running Thursdays, July 9, 2026 - August 27, 2026 (8 Weeks), 7:05 PM - 8:05 PM; COST - $240",
+      details: "Levels: C/D/REC Players",
+      schedule: "Wednesday -  10:00 AM - 11:00 AM (1 Hr Session) - September 9, 2026 - November 11, 2026 (10 Weeks) and Thursday - 10:00 AM - 11:00 AM (1 Hr Session) - September 10, 2026 - November 12, 2026 (10 Weeks) - COST - $310",
       location: "Nashoba Valley Olympia, Boxborough",
-      link: "https://thehockeyacademy.sportngin.com/register/form/526082731?_gl=1*1giic3p*_ga*MzkyOTE5Mjc5LjE3ODMyNjA3Mjc.#_ga=2.182913894.1384163250.1783260727-392919279.1783260727",
+      link: "https://www.thehockeyacademy.com/newhl",
     },
     {
-      name: "Belmont Women's Hockey – Various Programs",
-      details: "Check website for current offerings.",
+      name: "Belmont Women's Hockey – Team Skills",
+      details: "Thursdays, 8 pm - 9:20 pm; Session I: September 3 - October 8 (6 weeks, Rec/D level); Session II: October 15 - November 19 (6 weeks, Beginner level) - (4 teams per session)",
+      location: "Viglirolo Rink, Belmont",
+      link: "https://www.belmontwomenshockey.com/programs",
+      },
+    {
+      name: "Belmont Women's Hockey – Women's Intermediate/Advanced Skills & Scrimmage",
+      details: "Sunday nights from 6:50 pm - 8:20 pm; September 20 - November 8 (8 weeks); For experienced players; this will be a mixed-level game; Half packs available!",
       location: "Viglirolo Rink, Belmont",
       link: "https://www.belmontwomenshockey.com/programs",
     },
@@ -70,56 +70,43 @@ const programData = {
       link: "https://www.warrioricearena.com/skating-hockey-programs/adult-womens-skills/",
     },
     {
-      name: "Medford Women's Skills",
+      name: "Medford Women's Skills & Scrimmage",
       details: "Open to all levels.",
-      schedule: "Saturdays, October – March, 8:00 – 8:50 AM.",
+      schedule: "Saturdays, September 12, 2026 – April 10, 2027 - 7:00 – 8:30 AM.",
       location: "LoConte Rink, Medford",
-      contact: "Contact info: TBD",
+      contact: "Contact info: Organized through WhatsApp - contact us (submit a contact request form found on 'Our Community' page) to be added to the group",
+    },
+    {
+      name: "Quincy Clams - Skills & Scrimmage  - all levels",
+      details: "Open to all levels.",
+      schedule: "Every other Thursday through August at 6:40 PM , then every Thursday starting in September at 9:00 PM - $20 drop-in fee.",
+      location: "LoConte Rink, Medford",
+      contact: "Contact info: Organized through WhatsApp - contact us (submit a contact request form found on 'Our Community' page) to be added to the group",
     },
   ],
 
   "Women's Scrimmages / Pickup Games": [
     {
-      name: "StinkySocks Women's No-Commitment Hockey (NCH) Games",
+      name: "StinkySocks Women's No-Commitment Hockey (NCH) Games - Novice",
       details: "For skaters who have advanced beyond the learn-to-play level.",
-      schedule: "Mondays at 8 PM",
+      schedule: "Mondays at 8 PM through August 31, 2026",
       location: "Viglirolo Rink, Belmont",
       link: "https://www.stinkysocks.net/",
-    },
-    {
-      name: "Medford Women's Scrimmage",
-      details: "Open to all levels.",
-      schedule: "Saturdays, October – March, 9:00 – 9:50 AM.",
-      location: "LoConte Rink, Medford",
-      contact: "Contact info: TBD",
-    },
-    {
-      name: "Women's Hockey Sunday Night Scrimmage - ENDED",
-      details: "For skaters who have advanced beyond the learn-to-play level.",
-      schedule: "Sundays, 6:50 – 7:50 PM.",
-      location: "Viglirolo Rink, Belmont",
-      link: "https://belmontma.myrec.com/info/activities/program_details.aspx?ProgramID=30253",
     },
   ],
 
   "Women's Leagues": [
     {
-      name: "Belmont Women's Hockey – Beginner League & D League",
-      details: "Check website for current offerings.",
-      location: "Viglirolo Rink, Belmont",
-      link: "https://www.belmontwomenshockey.com/programs",
-    },
-    {
       name: "StinkySocks Women's Lower Level Draft League",
       details: "Levels 2-4: skaters who have advanced beyond the learn-to-play level. Typically excludes players with previous high school or higher experience. NOTE: Registration is currently full but you can still join the waitlist!",
-      schedule: "Sundays, 7:30 – 9:30 (season-dependent); current season runs June 21st - October 4th, 2026.",
+      schedule: "Sundays, 7:30 – 9:30 (season-dependent); current season runs June 21st - October 4th, 2026. Fall/early winter season starts Oct 11, 2026",
       location: "Veteran's Memorial Rink, Somerville",
       link: "https://www.stinkysocks.net/draft-league/somerville-womens-lower-level-draft-league/",
     },
     {
       name: "Warrior – Women's League",
       details: "Levels: C/D. Free agents welcome to sign up.",
-      schedule: "Runs Sundays, 6:30 – 8:20 PM; next season starts July 21, 2026",
+      schedule: "Runs Sundays, 6:30 – 8:20 PM; current season ends November 15, 2026",
       location: "Warrior Arena, Brighton",
       link: "https://www.warrioricearena.com/skating-hockey-programs/adult-womens-hockey-league/",
     },
@@ -131,12 +118,6 @@ const programData = {
       link: "https://sswhl.org/",
     },
     {
-      name: "New England Women's Hockey League (NEWHL)",
-      schedule: "Currently running Fridays, 10:00 – 11:00 AM, April 10 – June 19, 2026 (11 weeks).",
-      location: "Nashoba Valley Olympia, Boxborough",
-      link: "https://thehockeyacademy.sportngin.com/register/form/277333995",
-    },
-    {
       name: "Power Play Hockey League (PPHL), Women's League",
       schedule: "Contact PPHL for more information; the league is currently soliciting interest for a Women's Weekend Hockey League, Sunday mornings, all levels welcome. Interested? Email info@powerplayhockey.com or Rebecca Crimmins at rebeccacrimmins01@yahoo.com by August 10th, 2026.",
       location: "Canton Ice House, Canton",
@@ -145,6 +126,12 @@ const programData = {
   ],
 
   "Women's Tournaments": [
+     {
+      name: "Belmont Women's Hockey – 3v3 Tournament",
+      details: "Saturday, December 5, 2026",
+      location: "Viglirolo Rink, Belmont",
+      link: "https://www.belmontwomenshockey.com/programs",
+    },
     {
       name: "April Showers",
       details: "Levels: Rec-C (30+), 55+ division.",
@@ -155,7 +142,7 @@ const programData = {
     {
       name: "Cross Check Cancer",
       details: "Levels: Rec-B.",
-      schedule: "Next date: August 7 – 9, 2026.",
+      schedule: "Next date: August 2027.",
       location: "Haverhill, Lawrence, & Hockeytown",
       link: "https://www.thehockeyacademy.com/april-showers-tournament",
       link2: "https://www.valleyrinks.com/womens-cross-check-cancer/",
@@ -173,7 +160,7 @@ const programData = {
     {
       name: "Dynamic Women's Hockey Camp",
       details: "Levels: mixed. All-female coaching.",
-      schedule: "July each year; next dates: July 10 – 12, 2026.",
+      schedule: "July each year",
       location: "Amelia Park Ice Arena, Westfield",
       link: "https://www.dynamicwomenshockey.com/camps",
     },
