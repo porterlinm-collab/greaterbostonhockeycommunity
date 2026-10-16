@@ -42,13 +42,6 @@ const programData = {
 
   "Women's Clinics and Stick & Pucks": [
     {
-      name: "Summer Women's Stick & Puck",
-      schedule: "Wednesdays and Fridays, 9:00 – 11:00 AM through August 26, 2026",
-      cost: "$10.00",
-      location: "Viglirolo Rink, Belmont",
-      link: "https://belmontma.myrec.com/info/activities/program_details.aspx?ProgramID=30253",
-    },
-    {
       name: "New England Women's Hockey League (NEWHL) Skills",
       details: "Levels: C/D/REC Players",
       schedule: "Wednesday -  10:00 AM - 11:00 AM (1 Hr Session) - September 9, 2026 - November 11, 2026 (10 Weeks) and Thursday - 10:00 AM - 11:00 AM (1 Hr Session) - September 10, 2026 - November 12, 2026 (10 Weeks)",
@@ -61,7 +54,7 @@ const programData = {
       schedule: "Thursdays, 8 pm - 9:20 pm; Session I: September 3 - October 8 (6 weeks, Rec/D level); Session II: October 15 - November 19 (6 weeks, Beginner level) - (4 teams per session)",
       location: "Viglirolo Rink, Belmont",
       link: "https://www.belmontwomenshockey.com/programs",
-      },
+    },
     {
       name: "Belmont Women's Hockey – Women's Intermediate/Advanced Skills & Scrimmage",
       schedule: "Sunday nights from 6:50 pm - 8:20 pm; September 20 - November 8 (8 weeks); For experienced players; this will be a mixed-level game; Half packs available!",
@@ -93,22 +86,47 @@ const programData = {
 
   "Women's Scrimmages / Pickup Games": [
     {
-      name: "StinkySocks Women's No-Commitment Hockey (NCH) Games - Novice",
-      details: "For skaters who have advanced beyond the learn-to-play level.",
-      schedule: "Mondays at 8 PM through August 31, 2026",
-      cost: "$24",
+      name: "StinkySocks Women's No-Commitment Hockey (NCH) Games - Lower Level",
+      details: "Levels 1-4: for skaters who have advanced beyond the learn-to-play level. Generally excludes players with high school or higher experience.",
+      schedule: "Mondays at 9:00 PM (50-minute games)",
+      cost: "$28",
       location: "Viglirolo Rink, Belmont",
-      link: "https://www.stinkysocks.net/",
+      link: "https://secure.stinkysocks.net/nch",
+    },
+    {
+      name: "StinkySocks Women's No-Commitment Hockey (NCH) Games - Intermediate (Wednesdays)",
+      details: "Levels 4-6: geared toward players with high school-level experience or a comparable current skill level.",
+      schedule: "Wednesdays at 9:00 PM (50-minute games)",
+      cost: "$28",
+      location: "Viglirolo Rink, Belmont",
+      link: "https://secure.stinkysocks.net/nch",
+    },
+    {
+      name: "StinkySocks Women's No-Commitment Hockey (NCH) Games - Intermediate (Sundays)",
+      details: "Levels 4-6: geared toward players with high school-level experience or a comparable current skill level.",
+      schedule: "Sundays at 7:30 PM (50-minute games)",
+      cost: "$25",
+      location: "Veteran's Memorial Rink, Somerville",
+      link: "https://secure.stinkysocks.net/nch",
     },
   ],
 
   "Women's Leagues": [
     {
       name: "StinkySocks Women's Lower Level Draft League",
-      details: "Levels 2-4: skaters who have advanced beyond the learn-to-play level. Typically excludes players with previous high school or higher experience. NOTE: Registration is currently full but you can still join the waitlist!",
-      schedule: "Sundays, 7:30 – 9:30 (season-dependent); current season runs June 21st - October 4th, 2026. Fall/early winter season starts Oct 11, 2026",
+      details: "Levels 2-4: rec and novice range, extending into lower intermediate. Generally for players without high school experience. 17 guaranteed games (including playoffs); teams capped at 11 skaters.",
+      schedule: "Sundays, start times between 7:30 and 9:30 PM; Fall/Winter season runs October 11, 2026 – February 7, 2027",
+      cost: "$460 for skaters; goalies play free",
       location: "Veteran's Memorial Rink, Somerville",
       link: "https://www.stinkysocks.net/draft-league/somerville-womens-lower-level-draft-league/",
+    },
+    {
+      name: "StinkySocks Women's Intermediate Draft League (NEW)",
+      details: "Levels 4-6 (C/D level): generally for players without recent college experience. 14 guaranteed games (including playoffs); teams capped at 11 skaters.",
+      schedule: "Sundays, start times between 7:30 and 9:30 PM; Fall/Winter season runs November 15, 2026 – February 28, 2027",
+      cost: "$355 for skaters; goalies play free",
+      location: "Simoni Rink, Cambridge",
+      link: "https://www.stinkysocks.net/draft-league/cambridge-womens-intermediate-draft-league/",
     },
     {
       name: "Warrior – Women's League",
@@ -133,7 +151,7 @@ const programData = {
   ],
 
   "Women's Tournaments": [
-     {
+    {
       name: "Belmont Women's Hockey – 3v3 Tournament",
       schedule: "Saturday, December 5, 2026",
       location: "Viglirolo Rink, Belmont",
@@ -160,6 +178,13 @@ const programData = {
       schedule: "March each year.",
       location: "The Bog Ice Arena, Kingston",
       link: "https://baystatehockeyleague.com/club/clovercup",
+    },
+    {
+      name: "Darcy Edmonds Memorial Tournament",
+      details: "Levels: C/D (recreational), Senior Women 19+. Three-game guarantee, 60-minute games.",
+      schedule: "September each year (weekend tournament).",
+      location: "Dorothy Talbot Rink, Gloucester",
+      link: "http://www.stormwomenshockey.com/Darcy_Tournament_files/dhome.htm",
     },
   ],
 
